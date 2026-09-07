@@ -2,32 +2,66 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Mi presentación - ASIR</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Presentación del grupo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 40px;
+        }
+        img {
+            width: 300px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        h1 {
+            color: #2c3e50;
+        }
+        .integrantes {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 30px;
+        }
+        .tarjeta {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+            padding: 20px;
+            width: 220px;
+            text-align: left;
+        }
+        .tarjeta h3 {
+            margin-top: 0;
+            color: #2c3e50;
+        }
+        .tarjeta p {
+            margin: 5px 0;
+        }
+    </style>
 </head>
 <body>
+    <h1>Nuestro Grupo - ASIR</h1>
+    <img src="imagenes/foto-grupo.jpg" alt="Foto del grupo">
+    <p>Cosas sobre mi </p>
 
-    <h1>Hola, soy [Tu Nombre]</h1>
-    <p>Estudiante de ASIR | Técnico en SMR</p>
+    <h2>Integrantes</h2>
 
-    <h2>Sobre mí</h2>
-    <p>
-        Me llamo Alberto, tengo 19 años, soy de deusto, he estudiado SMR, 
-    </p>
+    <div class="integrante">
 
-    <h2>Qué me gusta hacer</h2>
-    <p>
-        [Me gusta jugar al futbol, quedar con los amigos y viajar
-    </p>
 
-    <h2>Habilidades</h2>
-    <ul>
-        <li>Paciencia</li>
-        <li>Organizar</li>
-        <li>Redes</li>
-        <li>PHP y MySQL</li>
+        <div class="tarjeta">
+            <h3>Sendoa </h3>
+            <p><strong>Edad:</strong> 19 años</p>
+            <p><strong>Vive en:</strong> Barakaldo</p>
+            <p><strong>Habilidades:</strong> Comunicación y trabajo en equipo </p>
+        </div>
 
-    </ul>
 
+
+    </div>
 </body>
 </html>
